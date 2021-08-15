@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.navbar {
+  background-color: var(--primary-color);
+  color: rgb(192, 169, 120);
+  padding: 1rem 1rem;
+  border-bottom-left-radius: 1rem ;
+  border-bottom-right-radius:1rem ;
+} 
+
+.section, .about {
+  background-color: teal;
+  padding: 1rem 1rem;
+  text-align: center;
+  color: black;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.notFound {
+  text-align: center;
+  padding-top: 1rem;
+  color: dark-gray;
+}
